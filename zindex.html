@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer-div {
+            background-color: yellow;
+            height: 250px;
+            width: 250px;
+
+            position: absolute;
+        }
+
+        #div-1 {
+            position: relative;
+            background-color: red;
+            height: 75px;
+            width: 75px;
+            /* top: 0px; */
+            left: 0;
+            top: 0;
+            z-index: 1;
+
+        }
+
+        #div-2 {
+            position: absolute;
+            border-left: 25px solid black;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+
+
+
+        }
+
+        /* 
+        #div-3 {
+            position: absolute;
+            background-color: green;
+            height: 75px;
+            width: 75px;
+            top: 50px;
+            left: 50px;
+        }
+
+        div-4 {
+            background-color: greenyellow;
+            position: absolute;
+            background-color: green;
+            height: 80px;
+            width: 80px;
+            top: 5px;
+            left: 50px;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="outer-div">
+        <div id="div-1"></div>
+
+    </div>
+    <div id="div-2"></div>
+    <div id="div-3"></div>
+    <div id="div-4"></div>
+
+
+    </div>
+</body>
+
+</html>
