@@ -311,6 +311,9 @@ footer>.row::after {
 }
 
 /* Aside */
+
+
+
 aside {
     background-color: #1f1f1f;
     position: fixed;
@@ -384,6 +387,7 @@ aside:hover {
     }
 
 }
+
 /* MAIN */
 /* row-1 */
 main .row:first-child,
@@ -445,4 +449,311 @@ main .row:first-child>.container>.col:first-child>ul li h3 {
     font-size: 18px;
     padding: 10px 0;
 }
+
 /* row 2 */
+main .row:nth-child(2)>.container {
+    /* background-color: #0865a9; */
+    padding-top: 20px;
+    /* height: 200px; */
+    /*will rmove*/
+}
+
+main .row:nth-child(2)>.container>.col:first-child {
+    /* background-color: yellow; */
+    width: 75%;
+    /* height: 100%; */
+    float: left;
+
+}
+
+main .row:nth-child(2)>.container>.col:last-child {
+    /* background-color: red; */
+    width: 25%;
+    /* height: 100%; */
+    float: right;
+}
+
+main .row:nth-child(2)>.container>.col:last-child svg {
+    height: 30px;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul {
+    border-top: 1px solid #ececec;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li {
+    display: table;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ccc;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li:hover {
+    background-color: #525252;
+    color: #ff9d1e;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li:hover a,
+main .row:nth-child(2)>.container>.col:last-child>ul>li:hover svg {
+    color: #ff9d13;
+    fill: #ff9d13;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li>a {
+    display: table-row;
+    text-decoration: none;
+    color: black;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li>a>div {
+    display: table-cell;
+    padding: 10px 10px 10px 20px;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+    line-height: 1.1rem;
+}
+
+main .row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child {
+    width: 90%;
+}
+
+#slider {
+    margin-top: 20px;
+    padding: 10px 10px 0;
+    height: 388px;
+    overflow-y: hidden;
+
+}
+
+.slide {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 388px;
+    background-size: contain;
+    background-position: center;
+    float: left;
+    width: 100%;
+}
+
+.slide .prev:hover,
+.slide .next:hover {
+    background-color: rgba(128, 130, 130, 0.8);
+}
+
+.slide .prev,
+.slide .next {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(128, 130, 130, 0.9);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.slide .prev {
+    left: 10px;
+}
+
+.slide .next {
+    right: 10px;
+}
+
+.slide ion-icon {
+    color: white;
+    vertical-align: sub;
+
+}
+
+#slide-1 {
+    background-image: url(https://boc.lk/image/data/Banner/200Day_investment-2022-Sept-Web.jpg);
+}
+
+#slide-2 {
+    background-image: url(https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg);
+}
+
+#slide-3 {
+    background-image: url(https://boc.lk/image/data/Banner/SDA-2022-09.jpeg);
+}
+
+#slide-4 {
+    background-image: url(https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg);
+}
+
+#slide-5 {
+    background-image: url(https://boc.lk/image/data/Banner/green-loan-2022.jpeg);
+}
+
+/* ROW 3 */
+
+main .row:nth-child(3) {
+    padding: 20px 0;
+}
+
+
+main .row:nth-child(3)>.container>.content {
+    /* background-color: chartreuse; */
+    height: 240px;
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    background-clip: content-box;
+    overflow: hidden;
+}
+
+main .row:nth-child(3)>.container>.content .wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+main .row:nth-child(3)>.container>.content .wrapper .overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+main .row:nth-child(3)>.container>.content .wrapper:hover .overlay {
+    display: block;
+}
+
+main .row:nth-child(3)>.container>.content .wrapper:hover .topic {
+    background-color: #ffde00;
+    color: #1f1f1f;
+}
+
+main .row:nth-child(3)>.container>.content:hover img {
+    transform: scale(1.2);
+
+}
+
+main .row:nth-child(3)>.container>.content img {
+    width: 100%;
+    display: block;
+    transition: transform 500ms;
+}
+
+main .row:nth-child(3)>.container>.content .topic {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    background-color: #525252;
+    color: white;
+    z-index: 1;
+}
+
+main .row:nth-child(3)>.container>.content:nth-child(1) {
+    /* background-color: red; */
+
+}
+
+main .row:nth-child(3)>.container>.content:nth-child(2) {
+    /* background-color: green; */
+
+
+}
+
+main .row:nth-child(3)>.container>.content:nth-child(3) {
+    /* background-color: blue; */
+
+
+}
+
+main .row:nth-child(3)>.container>.content:nth-child(4) {
+    /* background-color: yellow; */
+
+
+}
+
+/* row 4 */
+
+main .row:nth-child(4)>.container>.col:first-child,
+main .row:nth-child(4)>.container>.col:last-child {
+    /* background-color: red; */
+    width: 25%;
+    /* height: 100%; */
+    text-align: right;
+}
+
+main .row:nth-child(4)>.container>.col:nth-child(2) {
+    /* background-color: blue; */
+    width: 50%;
+    /* height: 100%; */
+    text-align: center;
+}
+
+main .row:nth-child(4)>.container>.col {
+    float: left;
+}
+
+main .row:nth-child(4) {
+    padding-bottom: 20px;
+}
+
+main .row:nth-child(4)>.container>.col:first-child>p:first-of-type {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+main .row:nth-child(4)>.container>.col:first-child>p:last-of-type {
+    font-size: 20px;
+}
+main .row:nth-child(4)>.container>.col:last-child>p:last-of-type {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+main .row:nth-child(4)>.container>.col:nth-child(2) {
+    width: 50%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main .row:nth-child(4)>.container>.col:first-child>p:last-of-type ion-icon {
+    color: #8a8a8a;
+    padding-right: 15px;
+}
+
+#popup {
+    position: fixed;
+    height: 20px;
+    top: 90%;
+    left: 10px;
+    right: 10px;
+    width: 450px;
+    background-color: #808285d5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px #000000ab;
+}
+
+#close {
+    padding: 5px 0;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#close ion-icon {
+    vertical-align: sub;
+    margin-right: 5px;
+    border-radius: 100%;
+    background-color: red;
+    font-weight: 1.2rem;
+}
+
+#popup p {
+    padding-top: 35px;
+}
+
+#close:hover {
+    color: red;
+    
+}
